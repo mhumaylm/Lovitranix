@@ -1,0 +1,1 @@
+import{j as e,H as t,F as o,R as s,a}from"./index-DrHZcpxd.js";import{S as r}from"./ServiceDetail-DSiSnEed.js";const i=()=>e.jsxs(e.Fragment,{children:[e.jsx(t,{}),e.jsx(r,{serviceId:"google-maps-optimization"}),e.jsx(o,{})]});s.createRoot(document.getElementById("root")).render(e.jsx(a.StrictMode,{children:e.jsx(i,{})}));
