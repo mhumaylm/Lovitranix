@@ -1,0 +1,20 @@
+{
+  "name": "Lovitranix",
+  "short_name": "Lovitranix",
+  "description": "Google Business Profile Services",
+  "icons": [
+    {
+      "src": "/favicon-192x192.png?v=5",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512x512.png?v=5",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#4285F4",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
