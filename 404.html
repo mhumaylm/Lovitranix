@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Redirecting...</title>
-    <link rel="canonical" href="https://lovitranix.me/"/>
-    <meta http-equiv="refresh" content="0; url=https://lovitranix.me/">
-    <script>
-      // Redirect to main page with hash for React Router
-      const path = window.location.pathname;
-      const hash = path.substring(1); // Remove leading slash
-      window.location.href = `https://lovitranix.me/#${hash}`;
-    </script>
-  </head>
-  <body>
-    <p>Redirecting to <a href="https://lovitranix.me/">homepage</a>...</p>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting to Lovitranix</title>
+  <link rel="canonical" href="https://lovitranix.me/"/>
+  <script>
+    // Extract the path and redirect properly for React Router
+    const path = window.location.pathname;
+    
+    // Map paths to React Router routes
+    const routeMap = {
+      '/service/google-business-profile': '/#services?service=google-business-profile',
+      '/service/google-maps-optimization': '/#services?service=google-maps-optimization', 
+      '/service/gmb-optimization': '/#services?service=gmb-optimization',
+      '/services': '/#services',
+      '/how-it-works': '/#how-it-works',
+      '/contact': '/#contact'
+    };
+    
+    // Get the mapped route or default to homepage
+    const targetRoute = routeMap[path] || '/';
+    
+    // Redirect
+    window.location.href = `https://lovitranix.me${targetRoute}`;
+  </script>
+</head>
+<body>
+  <p>Redirecting to <a href="https://lovitranix.me/">Lovitranix</a>...</p>
+</body>
 </html>
