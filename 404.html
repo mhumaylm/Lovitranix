@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <link rel="canonical" href="https://lovitranix.me/"/>
+    <meta http-equiv="refresh" content="0; url=https://lovitranix.me/">
+    <script>
+      // Redirect to main page with hash for React Router
+      const path = window.location.pathname;
+      const hash = path.substring(1); // Remove leading slash
+      window.location.href = `https://lovitranix.me/#${hash}`;
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="https://lovitranix.me/">homepage</a>...</p>
+  </body>
+</html>
