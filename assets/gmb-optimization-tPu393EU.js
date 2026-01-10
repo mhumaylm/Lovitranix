@@ -1,0 +1,1 @@
+import{j as e,H as t,F as o,R as r,a as s}from"./index-DrHZcpxd.js";import{S as a}from"./ServiceDetail-CCjDpWej.js";const i=()=>e.jsxs(e.Fragment,{children:[e.jsx(t,{}),e.jsx(a,{serviceId:"gmb-optimization"}),e.jsx(o,{})]});r.createRoot(document.getElementById("root")).render(e.jsx(s.StrictMode,{children:e.jsx(i,{})}));
