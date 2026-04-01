@@ -1,1 +1,0 @@
-import{j as e,H as s,F as o,R as r,a as t}from"./index-4acP_BBc.js";import{S as a}from"./ServiceDetail-Byh2QQYc.js";const i=()=>e.jsxs(e.Fragment,{children:[e.jsx(s,{}),e.jsx(a,{serviceId:"google-business-profile"}),e.jsx(o,{})]});r.createRoot(document.getElementById("root")).render(e.jsx(t.StrictMode,{children:e.jsx(i,{})}));
